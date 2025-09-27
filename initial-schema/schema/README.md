@@ -2,7 +2,7 @@
 
 ## Prva verzija šeme baze podataka sastoji se iz 4 kolekcije:
 
-![Intial shema](inititalschemascreenshot.jpg)
+![Intial shema](intialschemascreenshot.jpg)
 
 1. **Kolekcija customers** sadrži podatke o kupcima.
 

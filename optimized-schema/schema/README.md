@@ -2,7 +2,7 @@
 
 ## Druga verzija šeme baze podataka sastoji se iz 4 stare kolekcije i nove denormalizovane kolekcije koja je napravljena prema upitima, radi bržeg izvršavanja:
 
-![Intial shema](inititalschemascreenshot.jpg)
+![Intial shema](intialschemascreenshot.jpg)
 
 1. **Kolekcija customers** sadrži podatke o kupcima.
 
