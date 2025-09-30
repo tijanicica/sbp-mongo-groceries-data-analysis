@@ -53,8 +53,10 @@ db.getCollection("sales").aggregate([
 Rezultat upita:
 ![Rezultat](upit1tijana.jpg)
 
-Najprofitabilnije kategorije: Confections, Meat, Poultry
-Prosečni popust: 3%
+Najprofitabilnije kategorije: Confections, Meat, Poultry.
+
+Prosečni popust: 3%.
+
 Vreme izvršavanja: 126s
 
 # 2. Koji su top 5 najprodavanijih proizvoda (po Quantity i TotalPrice) u celom periodu, i koliki je procenat tih proizvoda označen kao IsAllergic?
@@ -105,6 +107,7 @@ Rezultat upita:
 ![Rezultat](upit2tijana.jpg)
 
 Procenat oznacen kao alergic je: 40%.
+
 Vreme izvršavanja: 122s.
 
 # 3.Kako se menjala ukupna prodaja (TotalPrice) i broj transakcija po danima u nedelji tokom celog perioda? Postoje li dani sa značajno većom ili manjom prodajom?
@@ -160,7 +163,8 @@ db.getCollection("sales").aggregate([
 Rezultat upita:
 ![Rezultat](upit3tijana.jpg)
 
-Najviše prodaja: Utorak, Sreda, Četvrtak
+Najviše prodaja: Utorak, Sreda, Četvrtak.
+
 Vreme izvršavanja: 4s.
 
 Rezultat upita:
@@ -217,9 +221,9 @@ Rezultat upita:
 ![Rezultat](upit4tijana.jpg)
 ![Rezultat](upit4tijanapt2.jpg)
 
-Najprodavanija kombinacija: High/Durable
+Najprodavanija kombinacija: High/Durable.
+
 Vreme izvršavanja: 121s.
-Pregledani dokumenti: "docsExamined" : 6690599.0
 
 # 5.Koje su top 3 kategorije proizvoda po najvećem prihodu (po TotalPrice) u svakom od top 5 gradova po ukupnom prihodu?
 
@@ -298,6 +302,8 @@ Rezultat upita:
 ![Rezultat](upit5tijana4.jpg)
 ![Rezultat](upit5tijana5.jpg)
 
-Top 5 gradova: Tucson, Jackson, Sacramento, Fort Wayne, Indianapolis
-Kategorije koje donose najveći prihod: Confections, Meat, Poultry
+Top 5 gradova: Tucson, Jackson, Sacramento, Fort Wayne, Indianapolis.
+
+Kategorije koje donose najveći prihod: Confections, Meat, Poultry.
+
 Vreme izvršavanja: 267s.

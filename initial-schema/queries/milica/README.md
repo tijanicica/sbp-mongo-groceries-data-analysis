@@ -55,7 +55,8 @@ db.getCollection("sales").aggregate([
 
 Rezultat upita:
 ![Rezultat](upit1milica.jpg)
-Top 3 grada sa najlojalnijim kupcima: Jackson, San Antonio, Jacksonville
+Top 3 grada sa najlojalnijim kupcima: Jackson, San Antonio, Jacksonville.
+
 Vreme izvršavanja 8.2s.
 
 # 2. Koji su top 3 zaposlena (SalesPerson) po ukupnoj prodaji (TotalPrice)? Uporediti njihove demografske podatke (pol, datum zaposlenja) sa prosekom svih zaposlenih.
@@ -117,6 +118,7 @@ db.getCollection("sales").aggregate([
 Rezultat upita:
 ![Rezultat](upit2milica.jpg)
 Top 3 zaposlena: Svi muskarci, prosek zaposlenih kod najboljeg manji od proseka, kod ostala dva veći.
+
 Vreme izvršavanja 3.4s.
 
 # 3. Koliko se proizvoda označenih kao IsAllergic prodaje u svakom gradu, po Quantity i TotalPrice? Koji gradovi imaju najveću prodaju alergijskih proizvoda?
@@ -175,7 +177,8 @@ db.getCollection("sales").aggregate([
 
 Rezultat upita:
 ![Rezultat](upit3milica.jpg)
-Top 3 grada po prodaji alergijskih proizvoda: Tucson, Jackson, Sacramento
+Top 3 grada po prodaji alergijskih proizvoda: Tucson, Jackson, Sacramento.
+
 Vreme izvršavanja 401s.
 
 # 4. Kakav je prosečan 'sadržaj korpe' po različitim gradovima? Analizirati prosečan broj stavki po transakciji i prosečnu vrednost jedne transakcije za svaki grad.
@@ -234,6 +237,7 @@ db.getCollection("sales").aggregate([
 
 Rezultat upita:
 ![Rezultat](upit4milica.jpg)
+
 Vreme izvršavanja 169s.
 
 # 5. Izracunati za svaki grad i svaku kategoriju koliko se proizvoda iz date kategorije prodalo po gradu. Koja kategorija proizvoda je najprodavanija?
@@ -288,4 +292,5 @@ db.getCollection("sales").aggregate([
 
 Rezultat upita:
 ![Rezultat](upit5milica.jpg)
-Vreme izvršavanja 343.
+
+Vreme izvršavanja 343s.
